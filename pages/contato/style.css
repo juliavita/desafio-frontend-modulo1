@@ -1,0 +1,105 @@
+.apresentacao {
+    width: 1110px;
+    display:flex;
+    justify-content: space-between;
+    border-top: 1px solid rgb(51, 50, 61, 0.15);
+    border-bottom: 1px solid rgb(51, 50, 61, 0.15);
+    padding-top:50px;
+}
+
+.contato-redes-sociais p {
+    width: 635px;
+    height: 180px;
+}
+
+.formulario {
+    width:1110px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contato-inputs {
+    height: 426px;
+    display:flex;
+    flex-direction: column;
+}
+
+.container-inputs {
+    display: flex;
+    flex-direction: column;
+}
+
+.infos {
+    all:unset;
+    width: 635px;
+    height: 48px;
+    padding-left: 10px;
+    box-sizing: border-box;
+    background: rgb(51,50,61, 0.1);
+    mix-blend-mode: normal;
+    color:#000000
+}
+
+textarea {
+    max-width: 635px;
+    height: 96px;
+    box-sizing: border-box;
+    background: rgb(51,50,61, 0.1);
+    mix-blend-mode: normal;
+    padding:10px;
+} 
+
+textarea:focus {
+    border-radius: 0px;
+}
+
+input:focus {
+    border: 2px solid #000000;
+}
+
+button {
+    all:unset;
+    box-sizing: border-box;
+    background: #203A4C;
+    width: 200px;
+    height: 48px;
+    font-family: 'Public Sans', sans-serif;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+button:hover {
+    background-color: #5FB4A2;
+}
+
+h1 {
+    font-family: 'Ibarra Real Nova', serif;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 42px;
+    letter-spacing: -0.357143px;
+    color: #33323D;
+}
+
+p {
+    font-family: 'Public Sans', sans-serif;
+    font-size: 16px;
+    line-height: 30px;
+    color: #33323D;
+    mix-blend-mode: normal;
+    opacity: 0.8;
+}
+
+label {
+    font-family: 'Public Sans', sans-serif;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 30px;
+    color: #33323D;
+    mix-blend-mode: normal;
+    opacity: 0.8;
+}

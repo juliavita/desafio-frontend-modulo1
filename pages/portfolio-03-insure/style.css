@@ -1,0 +1,140 @@
+h1 {
+    font-family: 'Ibarra Real Nova', serif;
+    font-weight: bold;
+    line-height: 42px;
+    letter-spacing: -0.357143px;
+    color: #33323D;
+}
+
+
+.seccao-1 img {
+    width:1110px;
+    height: 500px;
+}
+
+.seccao-1-conteudo {
+    display: flex;
+    justify-content: space-between;
+    width:1110px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid rgb(51, 50, 61, 0.15);
+}
+
+.seccao-1-conteudo p {
+    font-family: 'Public Sans', sans-serif;
+    font-size: 16px;
+    line-height: 30px;
+    mix-blend-mode: normal;
+    opacity: 0.8;
+    color: #33323D;
+}
+
+.seccao-1-conteudo .habilidades  {
+    color:#5FB4A2;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.seccao-1-conteudo h1 {
+    font-size: 40px;
+}
+
+.seccao-1-conteudo h2 {
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 42px;
+    letter-spacing: -0.285714px;
+    color: #33323D;
+}
+
+
+
+.resumo {
+    width: 350px;
+    height: 498px;
+    border-top: 1px solid rgb(51, 50, 61, 0.15);
+    border-bottom: 1px solid rgb(51, 50, 61, 0.15);
+    padding-top: 50px;
+    padding-bottom:50px;
+
+}
+
+.detalhes {
+    width: 635px;
+}
+
+.detalhes img {
+    width: 635px;
+    height: 400px;
+
+}
+
+.habilidades {
+    display: flex;
+    flex-direction: column;
+}
+
+.resumo a {
+    text-decoration: none;
+    color:#33323D;
+}
+
+.resumo button {
+    all:unset;
+    box-sizing: border-box;
+    text-align: center;
+    padding: 17px;
+    align-self: center;
+    width:204px;
+    border: 1px solid #33323D;
+    font-family: 'Public Sans', sans-serif;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+
+}
+
+
+.seccao-2 {
+    width:1110px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid rgb(51, 50, 61, 0.15);
+}
+
+.seccao-2 img {
+    width:8px;
+    height:16px;
+}
+
+.projetos {
+    width: 176px;
+    height: 66px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.alinhamento-vertical h1 {
+    font-size: 32px;
+}
+
+.par-opaco {
+    font-family: 'Public Sans', sans-serif;
+    font-size: 16px;
+    line-height: 30px;
+    color: #33323D;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+}
+
+.seccao-3 {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}

@@ -1,0 +1,124 @@
+.seccao-1 {
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    background-image: url(../../assets/home/image-homepage-hero.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+
+}
+
+.seccao-1-conteudo {
+    background-color: #FAFAFA;
+    width:445px;
+    height: 357px;
+}
+
+.seccao-1-conteudo p {
+    max-width: 390px;
+    padding-left: 24px;
+    font-weight: bold;
+    font-family: 'Ibarra Real Nova', serif;
+    font-size: 50px;
+    line-height: 50px;
+    letter-spacing: -0.446429px;
+    color: #33323D;
+}
+
+.button-seccao1 {
+    all:unset;
+    box-sizing: border-box;
+    display:flex;
+    align-items: center;
+    background-color:#203A4C;
+    
+}
+
+.button-seccao1 img {
+    padding: 18px 16px;
+    background: rgb(0,0,0,0.1);
+}
+
+.button-seccao1 span {
+    text-align: center;
+    padding-top:17px;
+    padding-bottom: 17px;
+    width:152px;
+    font-family: 'Public Sans', sans-serif;
+    font-size: 12px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+
+.seccao-2 {
+    display:flex;
+    justify-content: space-between;
+
+}
+
+.seccao-2-img img {
+    width:540px;
+    height: 600px;
+}
+
+.seccao-2-txt {
+    display: flex;
+    flex-direction: column;
+    width: 430px;
+    height: 600px;
+    padding-top:50px;
+    border-top: 1px solid rgb(51, 50, 61, 0.15);
+    border-bottom: 1px solid rgb(51, 50, 61, 0.15);
+}
+.seccao-2-txt h1 {
+    font-family: 'Ibarra Real Nova', serif;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 42px;
+    letter-spacing: -0.357143px;
+    color: #33323D;
+}
+
+.seccao-2-txt p {
+    font-family: 'Public Sans', sans-serif;
+    font-size: 16px;
+    line-height: 30px;
+    mix-blend-mode: normal;
+    opacity: 0.8;
+    color: #33323D;
+}
+.seccao-2-txt button {
+    all:unset;
+    box-sizing: border-box;
+    text-align: center;
+    padding: 17px;
+    align-self: center;
+    width:204px;
+    border: 1px solid #33323D;
+    font-family: 'Public Sans', sans-serif;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+
+}
+
+.seccao-2-txt a {
+    text-decoration: none;
+    color: #33323D;
+}
+
+.seccao-3 {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.seccao-3-btn a:hover {
+    text-decoration: none;
+    color:#FAFAFA
+}
+

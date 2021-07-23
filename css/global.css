@@ -1,0 +1,102 @@
+* {
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    background-color:#FAFAFA;
+    min-height: 100vh;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 64px;
+}
+
+.header-container {
+    display:flex;
+    justify-content: space-between;
+    width:1111px;
+    font-family: 'Public Sans', sans-serif;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #33323D;
+}
+
+.selecionado {
+    color: #5FB4A2;
+}
+
+
+.seccao-3-titulo h1 {
+    max-width: 367px;
+    font-family: 'Ibarra Real Nova', serif;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 42px;
+    letter-spacing: -0.357143px;
+    color: #33323D;
+}
+.seccao-3-btn a{
+    padding: 17px 50px;
+    text-align: center;
+    border: 1px solid #33323D;
+    font-family: 'Public Sans', sans-serif;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #33323D;
+}
+
+
+footer {
+    display: flex;
+    justify-content: center;
+    width:100%;
+    background-color:#33323D;
+    color: #FFFFFF;
+    
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    width:1111px;
+    height: 80px;
+    align-items: center;
+}
+
+.footer-links {
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.footer-links a {
+    font-family: 'Public Sans', sans-serif;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.button-seccao1:hover {
+    background-color: #5FB4A2;
+}
+
+.button-seccao1 img:hover {
+    background: rgb(0,0,0,0.1);
+}
+
+.seccao-3-btn a:hover {
+    text-decoration: none;
+    color:#FAFAFA;
+    background-color: #33323D;
+}
+
+
